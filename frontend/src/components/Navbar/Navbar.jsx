@@ -1,10 +1,11 @@
 import React from 'react'
 import './Navbar.css'
 
+
 const Navbar = () => {
   return (
     <div className='head-nav'>
-        <div className='container nav-container'>
+        <div className='container-fluid nav-container'>
 
 
         <nav class="navbar navbar-expand-lg ">
@@ -21,7 +22,7 @@ const Navbar = () => {
         <a class="nav-link" href="#">Features</a>
       </li>
       <li class="nav-item">
-        
+
         <a class="nav-link" href="#">Pricing</a>
       </li>
       <li class="nav-item dropdown">
